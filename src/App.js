@@ -1,22 +1,16 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
 
+import TodoFeature from './features/Todo/pages';
+
+
 function App() {
-  const name = 'Nghi Long'
-  const age = '19'
 
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Trixie
-        </p>
-
-      <p>Hello {name} {age} chủi</p>
-      </header>
-    </div>
-  );
+      <div>
+          <TodoFeature/>
+      </div>
+    );
 }
 
 export default App;
